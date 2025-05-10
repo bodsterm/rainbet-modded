@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbet Mock Demo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rainbet Mock Demo</h1>
+        <div id="balance">Balance: <span id="balance-amount">1000</span> Coins</div>
+    </header>
+    <main>
+        <section>
+            <h2>Place a Bet</h2>
+            <input type="number" id="bet-amount" placeholder="Enter bet amount" min="1">
+            <button onclick="placeBet()">Bet</button>
+        </section>
+        <section>
+            <h2>Add Free Balance</h2>
+            <button onclick="addFreeBalance()">Get 1000 Free Coins</button>
+        </section>
+        <p id="message"></p>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
